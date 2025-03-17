@@ -12,6 +12,9 @@ class MainWindow : public QMainWindow {
     
   private slots:
     void write_json();
-    void read_json();    
+    void read_json();
+    
+  private:
+    QString filename_;
 };
 #endif  // MAINWINDOW_H
